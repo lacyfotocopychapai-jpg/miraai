@@ -26,5 +26,14 @@ export interface ActionLog {
   timestamp: number;
 }
 
+export interface FileItem {
+  id: string;
+  name: string;
+  type: 'file' | 'folder' | 'apk' | 'image' | 'video';
+  size?: string;
+  path: string;
+  lastModified: number;
+}
+
 export type ImageSize = '1K' | '2K' | '4K';
 export type AspectRatio = '16:9' | '9:16';
