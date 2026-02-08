@@ -1,0 +1,7 @@
+{
+  "name": "Android Smart Assistant",
+  "description": "An advanced AI-powered Android Voice Assistant with real-time Bengali speech interaction and system control simulation.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
