@@ -8,7 +8,7 @@ import {
   X, Check, Trash2, Box, Download, Terminal, Cpu, Folder, ChevronLeft, HardDrive, File
 } from 'lucide-react';
 import { SystemState, Message, ActionLog, ImageSize, AspectRatio, FileItem } from './types';
-import { decode, decodeAudioData, createPcmBlob, encode } from './services/audioService';
+import { decode, decodeAudioData, createPcmBlob, encode } from './audioService';
 
 const SYSTEM_INSTRUCTION = `
 তুমি একজন উন্নত Android Voice Assistant। তোমার নাম "Mira" (মিরা)।
